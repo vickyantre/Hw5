@@ -70,6 +70,7 @@ li a:hover {
 	padding-top: 2%;
 	width: 80%;
 	margin: 0 auto;
+	padding-bottom: 30px
 }
 .reasons{
 	display: inline-block;
@@ -95,8 +96,14 @@ li a:hover {
 	border-radius: 3px;
 }
 .costumes{
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
+	padding: 30px;
+	border-top: 1px solid lightgrey;
+}
+.costumes:nth-child(4n+1){
+	border-top: none;
+	border-bottom: 1px solid lightgrey;
 }
 .costumes-text{
 	color: grey;
@@ -118,14 +125,15 @@ li a:hover {
 	float: left;
 	}
 .footer{
-	border-top: 1px solid lightgrey;
+	width: 80%;
+	margin: 0 auto;
 	font-size: 12px;
 	padding: 30px 0 0 0;
-	margin-top: 30px;
+	
 }
 .footer a{
-text-decoration: none;	
-padding-right: 5px;
+	text-decoration: none;	
+	padding-right: 5px;
 }
 .footer p{
 	display: inline-block;
