@@ -1,5 +1,6 @@
 body{
-	
+	margin: 0;
+	padding: 0;	
 	font-family: 'Raleway', sans-serif;
 }
 .wrapper{
@@ -57,9 +58,11 @@ li a:hover {
 	border: 1px solid #2a74b1;
 	border-radius: 5px;
 	color: white;
+	border:3px solid transparent;
 }
 .headtext button:hover{
 	border: 3px solid #2a74b1;
+	box-sizing: border-box;
 
 }
 .rounded{
@@ -95,16 +98,14 @@ li a:hover {
 	margin: 0 auto;
 }
 .costumes-text{
-	display: inline-block;
 	color: grey;
 	width: 57%;
-	height: 400px;
+	height: 300px;
 	padding-top: 100px;
+	overflow: hidden;
 	
 }
 .img {
-
-	display: inline-block;
 	float: right;
 	margin: 10px;
 }
