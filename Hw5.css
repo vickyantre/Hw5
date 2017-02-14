@@ -135,6 +135,8 @@ li a:hover {
 	text-decoration: none;	
 	padding-right: 5px;
 }
+.footer a::before{content: "• "}
+
 .footer p{
 	display: inline-block;
 	padding-right: 5px;
